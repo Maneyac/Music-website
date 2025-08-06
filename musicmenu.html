@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <style>
+    /* Styling for the body */
+    body {
+      background-color: black;
+      color: white;
+      margin-left: 50px; /* Remove default margin */
+      font-family: Arial, sans-serif;
+    }
+
+    /* Home button */
+    .home-button {
+      background-color: rgb(0, 255, 42);
+      border: none;
+      height: 65px;
+      width: 80px;
+      border-radius: 10px;
+      border-color: rgb(2, 80, 15);
+      border-style: solid;
+    }
+
+    .home-button:hover {
+      cursor: pointer;
+      background-color: rgb(109, 11, 31);
+    }
+
+    /* Menu button */
+    .menu-button {
+      background-color: crimson;
+      height: 50px;
+      width: 100px;
+      border-radius: 50px;
+      border-color: black;
+      border-style: solid;
+    }
+
+    .menu-button:hover {
+      background-color: rgb(133, 18, 41);
+      cursor: pointer;
+    }
+
+    .menu-button:active {
+      background-color: black;
+    }
+
+    /* Position the search bar at the top right */
+    .search-container {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      border-radius: 20px;
+      padding: 5px;
+    }
+
+    .search-input {
+      height: 30px;
+      width: 200px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      background-color: white;
+      color: black;
+    }
+
+    .search-button {
+      background-color: rgb(0, 255, 42);
+      border: none;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+    .search-button:hover {
+      background-color: rgb(109, 11, 31);
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Home button -->
+  <a href="index.html">
+    <button class="home-button">HOME</button>
+  </a>
+
+  <!-- Artists button -->
+  <a href="musicmenu.html">
+    <button class="menu-button">Artists</button>
+  </a>
+
+  <p>Artists</p>
+  <style>
+
+  </style>
+
+  <!-- Link to Asriel's page -->
+   <ol>
+  <li> <a href="Asriel.html">Asriel</a> </li> <br> <br>
+  <li> <a href="Unlucky morpheous.html">Unlucky Morpheous</a> </li> <br><br>
+  <li> <a href="KOKOMI.html">KOKOMI</a> </li><br> <br>
+  <li> <a href="The gazette.html">The GazettE</a> </li>
+</ol>
+  <!-- Search bar at the top right -->
+  <div class="search-container">
+    <input type="text" class="search-input" placeholder="Search...">
+    <button class="search-button" onclick="alert('Search functionality not implemented')">🔍</button>
+  </div>
+
+</body>
+</html>
+
